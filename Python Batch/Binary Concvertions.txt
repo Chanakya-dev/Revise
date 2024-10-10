@@ -1,0 +1,33 @@
+
+Binary conversion is the process of converting a number from its decimal (base 10) representation to binary (base 2) representation, and vice versa. Here’s a detailed explanation of both conversions:
+
+1. Decimal to Binary Conversion
+The binary system uses only two digits, 0 and 1. To convert a decimal number to binary, you can use the method of repeated division by 2. Here's how it works:
+
+Steps:
+Divide the decimal number by 2.
+Record the remainder. This will be the least significant bit (LSB).
+Update the decimal number to the quotient obtained from the division.
+Repeat the process until the quotient is 0.
+Read the remainders in reverse order to get the binary representation.
+
+
+
+2. Binary to Decimal Conversion
+To convert a binary number back to decimal, you can use the method of weighted sums. Each digit in a binary number represents a power of 2, starting from the right (which is the least significant bit).
+
+Steps:
+Write down the binary number.
+Assign powers of 2 to each digit, starting from 0 on the right.
+Multiply each digit by its corresponding power of 2.
+Sum all the results.
+Example:
+Convert the binary number 1101 to decimal.
+
+Write down the powers of 2:
+
+So, 1101 in binary is 13 in decimal.
+
+
+&-- Will Returns 1 Only when Both Contains 1
+|-- Will Returns 1 When Any One of the Value is 1
