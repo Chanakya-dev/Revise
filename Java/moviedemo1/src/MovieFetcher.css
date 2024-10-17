@@ -1,0 +1,41 @@
+/* src/components/MovieFetcher.css */
+
+.movie-list {
+    padding: 80px; 
+    padding-left: 240px;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.movie-item {
+    text-align: center;
+    margin: 10px;
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    width: 150px; 
+    transition: transform 0.3s; 
+}
+
+.movie-item:hover {
+    transform: scale(1.05); 
+}
+
+.movie-poster {
+    width: 100%; 
+    height: auto; 
+    border-radius: 4px; 
+}
+
+.movie-title {
+    margin-top: 10px; 
+    font-size: 16px; 
+    font-weight: bold;
+}
+
+.movie-rating {
+    margin-top: 5px;
+    color: #777;
+    font-size: 14px;
+}

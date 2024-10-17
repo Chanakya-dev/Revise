@@ -1,0 +1,66 @@
+/* SideBar CSS */
+.sidebar {
+    width: 180px;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    padding: 20px;  /* Added padding back */
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .sidebar-logo {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .sidebar-logo h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #f5f5f5;
+  }
+  
+  .sidebar-links {
+    list-style: none;
+    padding: 0;
+    flex-grow: 1; /* Pushes the links to fill the space */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align the links at the top */
+  }
+  
+  .sidebar-links li {
+    margin: 15px 0;
+  }
+  
+  .sidebar-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .sidebar-links a:hover {
+    color: #f0a500;
+  }
+  
+  .sidebar-footer {
+    margin-top: 20px; /* Small gap from links to footer */
+    text-align: center;
+  }
+  
+  .sidebar-logout {
+    background-color: #f0a500;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .sidebar-logout:hover {
+    background-color: #d48e00;
+  }
+  
